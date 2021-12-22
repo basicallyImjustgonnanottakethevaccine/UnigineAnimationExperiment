@@ -707,13 +707,13 @@
 			</properties>
 			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0.50729156 1.0</transform>
 			<node type="ObjectMeshSkinned" id="417601821" name="AnimMan">
-				<mesh_name>guid://904033fd381d6538aeb967370f581b2ac5d51081</mesh_name>
+				<mesh_name>guid://82edcb567cec8abd602e4cf815ababf787ca18ea</mesh_name>
 				<fps_visible_camera>-1</fps_visible_camera>
 				<fps_visible_shadow>30</fps_visible_shadow>
 				<fps_invisible>0</fps_invisible>
-				<anim_name>guid://6d1eed7249be6e299cffe1742d959e439ea1aec6</anim_name>
+				<anim_name>guid://568d252b7f9bf88e22412695b3aa46f021c82d8f</anim_name>
 				<loop>1</loop>
-				<time>6.85971642</time>
+				<time>0.254687786</time>
 				<speed>30</speed>
 				<playing>1</playing>
 				<surface name="M_AnimMan_Default" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
@@ -734,12 +734,12 @@
 				<properties>
 					<property parent="7d7c428d9e078288001ac44712ee34fa480d4011" guid="91c9bf1aaf5c03b129dca95cd21a350b86f906ee">
 						<parameter name="idle">guid://610ac87208fa8d294e677474cf6a15431cd5b9c6</parameter>
-						<parameter name="crouchIdle">guid://6952eb0692df46ad8ed378287af3fd6770d8db9a</parameter>
-						<parameter name="walkRight">guid://e6567fd4e175e9236ebabc26a297a54d0e840648</parameter>
+						<parameter name="crouchIdle">guid://568d252b7f9bf88e22412695b3aa46f021c82d8f</parameter>
+						<parameter name="walkRight">guid://2cda17a6b8244acd5a196dc8a9ff3687e14d823a</parameter>
 						<parameter name="walkFront">guid://ff041edfd7b85eb2e5e8ae69a6fea4b442910883</parameter>
 						<parameter name="walkLeft">guid://91e9d7eae7302641e577caac6910c61b99dac4be</parameter>
 						<parameter name="walkBack">guid://0487013a60711f514390d07cb9f6f1ababf65b0e</parameter>
-						<parameter name="runRight">guid://435cdad4060a882308a0cf26f9d89c4d7e3a9148</parameter>
+						<parameter name="runRight">guid://fdfc32e696fb2d0d61686b083d2992c73d75b17a</parameter>
 						<parameter name="runFront">guid://1437b76d5ffdb1e890db6c279479fb5aec9092f1</parameter>
 						<parameter name="runLeft">guid://57ea138edffa859578ee19f0c74be48fea5188a2</parameter>
 						<parameter name="runBack">guid://d70150af8ebcc6420f7550b9a59ec2c4ec3cef53</parameter>
