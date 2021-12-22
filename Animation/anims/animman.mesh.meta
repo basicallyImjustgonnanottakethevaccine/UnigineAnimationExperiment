@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>82edcb567cec8abd602e4cf815ababf787ca18ea</guid>
+	<type>mesh</type>
+	<hash>2ef6384b</hash>
+	<runtimes>
+		<runtime id="82edcb567cec8abd602e4cf815ababf787ca18ea" name="animman.mesh" link="0" type="1"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="int" name="uv_ch">1</parameter>
+		<parameter type="bool" name="unwrap_uv_ch_0">0</parameter>
+		<parameter type="bool" name="unwrap_uv_ch_1">1</parameter>
+		<parameter type="int" name="resolution">3</parameter>
+		<parameter type="string" name="lightmaps"/>
+		<parameter type="int" name="smooth_animation_size">0</parameter>
+	</parameters>
+</asset>
