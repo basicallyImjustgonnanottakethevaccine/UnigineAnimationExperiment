@@ -1,55 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <asset version="2.15.0.1">
-	<guid>60586bbbe11bedde064e7ba5e6cbf8c084a7151f</guid>
+	<guid>c447f33fa0286792950261c94d250094f3fef2e3</guid>
 	<type>world</type>
-	<hash>5ede9e72</hash>
+	<hash>aa065a63</hash>
 	<runtimes>
-		<runtime id="60586bbbe11bedde064e7ba5e6cbf8c084a7151f" name="AnimationV0.world" link="0"/>
+		<runtime id="c447f33fa0286792950261c94d250094f3fef2e3" name="AnimationV0.world" link="0"/>
 	</runtimes>
 	<parameters>
-		<parameter type="string" name="render_settings_path">guid://3eaf348f5c3c98a2f8253f99e39b2424233a2133</parameter>
+		<parameter type="string" name="render_settings_path"/>
 		<parameter type="string" name="sound_settings_path"/>
 		<parameter type="string" name="physics_settings_path"/>
 		<parameter type="string" name="script_name"/>
-		<parameter type="xml" name="viewports"><viewport_list>
-	<1>
-		<flashlight>
-			<enabled>0</enabled>
-			<color>1 1 1 1</color>
-			<intensity>1</intensity>
-			<attenuation>1</attenuation>
-			<radius>300</radius>
-			<fov>160</fov>
-		</flashlight>
-		<speed_presets>
-			<speed_0>5</speed_0>
-			<speed_1>50</speed_1>
-			<speed_2>500</speed_2>
-			<current_preset>0</current_preset>
-		</speed_presets>
-		<scene_camera>
-			<transform>0.77052760124206543 -0.63740682601928711 -6.5490617089380976e-06 0 0.14352051913738251 0.17348438501358032 0.97432303428649902 0 -0.62103885412216187 -0.75074350833892822 0.22515544295310974 0 -2.4474508762359619 -2.8299667835235596 2.1314170360565186 1</transform>
-			<fov_mode>0</fov_mode>
-			<fov>60</fov>
-			<focal_length>30</focal_length>
-			<film_gate>35</film_gate>
-			<znear>0.100000001</znear>
-			<zfar>100000</zfar>
-			<viewport_mask>-1</viewport_mask>
-			<reflection_mask>-1</reflection_mask>
-			<source_mask>-1</source_mask>
-			<reverb_mask>-1</reverb_mask>
-			<ortho_enabled>0</ortho_enabled>
-			<ortho_height>16</ortho_height>
-			<projection>1.7320509 0 0 0 0 1.7320509 0 0 0 0 -1.00000203 -1 0 0 -0.200000197 0</projection>
-		</scene_camera>
-		<render_debug>
-			<mode>-1</mode>
-			<ligth_meter_max_intensity>500</ligth_meter_max_intensity>
-		</render_debug>
-		<selected_camera_id>-1</selected_camera_id>
-	</1>
-</viewport_list>
-</parameter>
+		<parameter type="xml" name="viewports"/>
 	</parameters>
 </asset>

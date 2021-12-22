@@ -180,7 +180,7 @@ public class LayersWeight : Component
 		Crouch();
 		Jump();
 		UpdateAnimations();	
-		//Log.Message("vel{0} \n", idleWeight);
+		//Log.Message("{0} \n", );
 	}
 
 	private void Idle()
@@ -313,11 +313,7 @@ public class LayersWeight : Component
 			{
 				jumpLandWeight = MathLib.Clamp(jumpLandWeight - Game.IFps * transitionSpeed, 0.0f, 1.0f);
 			} 
-			Log.Message("{0} \n", meshSkinned.GetFrame((int)LAYERS.JUMP_LAND));
-			
-
-		}
-		
+		}		
 	}
 
 	private void UpdateAnimations()
@@ -370,5 +366,4 @@ public class LayersWeight : Component
 	
 		currentTime += Game.IFps;
 	}
-
 }
