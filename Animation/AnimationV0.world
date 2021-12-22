@@ -2,7 +2,7 @@
 <world version="2.15.0.1">
 	<render_settings_path>guid://3eaf348f5c3c98a2f8253f99e39b2424233a2133</render_settings_path>
 	<sound>
-		<enabled>1</enabled>
+		<enabled>0</enabled>
 		<sound_manager_load_samples>0</sound_manager_load_samples>
 		<sound_manager_sample_static_memory>64</sound_manager_sample_static_memory>
 		<sound_manager_sample_stream_memory>16</sound_manager_sample_stream_memory>
@@ -598,7 +598,7 @@
 		<frozen_angular_velocity>0.0199999996</frozen_angular_velocity>
 	</physics>
 	<game>
-		<enabled>1</enabled>
+		<enabled>0</enabled>
 	</game>
 	<editor>
 		<node id="784603924" type="ObjectMeshDynamic" name="ground">
@@ -711,9 +711,9 @@
 				<fps_visible_camera>-1</fps_visible_camera>
 				<fps_visible_shadow>30</fps_visible_shadow>
 				<fps_invisible>0</fps_invisible>
-				<anim_name>guid://568d252b7f9bf88e22412695b3aa46f021c82d8f</anim_name>
+				<anim_name>guid://163a2105c0079ea083a5c17fdc5960d27e0e8a09</anim_name>
 				<loop>1</loop>
-				<time>0.254687786</time>
+				<time>15</time>
 				<speed>30</speed>
 				<playing>1</playing>
 				<surface name="M_AnimMan_Default" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
@@ -757,7 +757,7 @@
 		</node>
 		<node type="ObjectMeshStatic" id="1712264681" name="Cuboid">
 			<mesh_name>guid://cf575c589741b3d7a86bbf4a66592621ad60090c</mesh_name>
-			<surface name="box" collision="1" material="fbc9263de6d73278a1305377d3c39a6a013e06c1"/>
+			<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="fbc9263de6d73278a1305377d3c39a6a013e06c1"/>
 			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.5495839 6.6327372 0.75545526 1.0</transform>
 		</node>
 		<node type="NodeDummy" id="92818834" name="ramp_0">

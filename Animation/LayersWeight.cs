@@ -118,7 +118,7 @@ public class LayersWeight : Component
 		// Idle
 		meshSkinned.NumLayers = (int)LAYERS.COUNT;
 		meshSkinned.SetAnimation((int)LAYERS.IDLE, idle);
-		meshSkinned.SetLayerEnabled((int)LAYERS.IDLE, true);
+		//smeshSkinned.SetLayerEnabled((int)LAYERS.IDLE, true);
 
 		meshSkinned.SetAnimation((int)LAYERS.CROUCH_IDLE, crouchIdle);
 		meshSkinned.SetLayerEnabled((int)LAYERS.CROUCH_IDLE, true);
@@ -180,7 +180,7 @@ public class LayersWeight : Component
 		Crouch();
 		Jump();
 		UpdateAnimations();	
-		//Log.Message("{0} \n", );
+		//Log.Message("jumpstart{0} \n", jumpStartWeight);
 	}
 
 	private void Idle()
@@ -189,7 +189,7 @@ public class LayersWeight : Component
 		{
 			idleWeight = MathLib.Clamp(idleWeight + Game.IFps * transitionSpeed, 0.0f, 1.0f);			
 		}
-		else idleWeight = MathLib.Clamp(idleWeight - Game.IFps * transitionSpeed, 0.0f, 1.0f);
+		else idleWeight = 0.0f; //idleWeight = MathLib.Clamp(idleWeight - Game.IFps * transitionSpeed, 0.0f, 1.0f);
 
 		if ( MathLib.Abs(velocityX) < 0.1f && MathLib.Abs(velocityY) < 0.1f && Component.IsCrouch && timeInAir < timeInAirDeactivation)
 		{
@@ -297,22 +297,24 @@ public class LayersWeight : Component
 			} 
 		}
 		else
-		{
+		{	/*
 			//float jumpLandTime; 
 			if ( timeInAir > 0.25 ) // If player has spend some time in air
 			{
 				currentTime = 0.0f; // Not a loop animation, so make animation start to frame 0.
 				jumpLandWeight = 1.0f;
 			}
-			//if (meshSkinned.GetNumFrames)
+			//if (meshSkinned.GetNumFrames)*/
 			timeInAir = 0.0f;
 			jumpStartWeight = MathLib.Clamp(jumpStartWeight - Game.IFps * transitionSpeed, 0.0f, 1.0f);
 			jumpFallWeight = MathLib.Clamp(jumpFallWeight - Game.IFps * transitionSpeed, 0.0f, 1.0f);
 			// stop landing animation at the end of it
+			/*
 			if (meshSkinned.GetFrame((int)LAYERS.JUMP_LAND) > meshSkinned.GetNumFrames((int)LAYERS.JUMP_LAND) - 15 ) // fade out landing animation 10 frame before it end
 			{
 				jumpLandWeight = MathLib.Clamp(jumpLandWeight - Game.IFps * transitionSpeed, 0.0f, 1.0f);
-			} 
+			}
+			*/
 		}		
 	}
 
