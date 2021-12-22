@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>d3c4338d32b4bf888834dd47d33779fafa43c111</guid>
+	<type>material</type>
+	<hash>aef27ae5</hash>
+	<runtimes>
+		<runtime id="d3c4338d32b4bf888834dd47d33779fafa43c111" name="anim_man" link="0" type="5"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

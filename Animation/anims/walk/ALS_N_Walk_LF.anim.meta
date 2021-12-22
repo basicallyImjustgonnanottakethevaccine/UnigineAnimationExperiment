@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>91e9d7eae7302641e577caac6910c61b99dac4be</guid>
+	<type>animation</type>
+	<hash>2efebc3b</hash>
+	<runtimes>
+		<runtime id="91e9d7eae7302641e577caac6910c61b99dac4be" name="ALS_N_Walk_LF.anim" link="0" type="2"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>a35b6f99dc7b9424233fd133e201e4f6d3c797dd</guid>
+	<type>animation</type>
+	<hash>1f0341eb</hash>
+	<runtimes>
+		<runtime id="a35b6f99dc7b9424233fd133e201e4f6d3c797dd" name="ALS_Flail.anim" link="0" type="2"/>
+	</runtimes>
+</asset>

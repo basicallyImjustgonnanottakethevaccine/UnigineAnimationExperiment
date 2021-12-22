@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>610ac87208fa8d294e677474cf6a15431cd5b9c6</guid>
+	<type>animation</type>
+	<hash>1c9ad838</hash>
+	<runtimes>
+		<runtime id="610ac87208fa8d294e677474cf6a15431cd5b9c6" name="ALS_N_SecondaryMotion.anim" link="0" type="2"/>
+	</runtimes>
+</asset>

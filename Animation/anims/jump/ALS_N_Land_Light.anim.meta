@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>140dd4fa9068601189ab9a3ca975b06bf6268ace</guid>
+	<type>animation</type>
+	<hash>2cd8f49</hash>
+	<runtimes>
+		<runtime id="140dd4fa9068601189ab9a3ca975b06bf6268ace" name="ALS_N_Land_Light.anim" link="0" type="2"/>
+	</runtimes>
+</asset>

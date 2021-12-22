@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>d9f30bfe505bc345f2a25be03828ddbf06835012</guid>
+	<type>animation</type>
+	<hash>0015565a</hash>
+	<runtimes>
+		<runtime id="d9f30bfe505bc345f2a25be03828ddbf06835012" name="ALS_CLF_Walk_R.anim" link="0" type="2"/>
+	</runtimes>
+</asset>

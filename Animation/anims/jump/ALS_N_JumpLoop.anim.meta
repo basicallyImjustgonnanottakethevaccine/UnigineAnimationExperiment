@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.0.1">
+	<guid>6d1eed7249be6e299cffe1742d959e439ea1aec6</guid>
+	<type>animation</type>
+	<hash>6e729f6</hash>
+	<runtimes>
+		<runtime id="6d1eed7249be6e299cffe1742d959e439ea1aec6" name="ALS_N_JumpLoop.anim" link="0" type="2"/>
+	</runtimes>
+</asset>
