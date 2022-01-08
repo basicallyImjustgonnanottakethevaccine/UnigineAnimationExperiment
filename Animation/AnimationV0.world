@@ -2,7 +2,7 @@
 <world version="2.15.0.1">
 	<render_settings_path>guid://3eaf348f5c3c98a2f8253f99e39b2424233a2133</render_settings_path>
 	<sound>
-		<enabled>0</enabled>
+		<enabled>1</enabled>
 		<sound_manager_load_samples>0</sound_manager_load_samples>
 		<sound_manager_sample_static_memory>64</sound_manager_sample_static_memory>
 		<sound_manager_sample_stream_memory>16</sound_manager_sample_stream_memory>
@@ -598,22 +598,9 @@
 		<frozen_angular_velocity>0.0199999996</frozen_angular_velocity>
 	</physics>
 	<game>
-		<enabled>0</enabled>
+		<enabled>1</enabled>
 	</game>
 	<editor>
-		<node id="784603924" type="ObjectMeshDynamic" name="ground">
-			<fps_visible_camera>-1</fps_visible_camera>
-			<fps_visible_shadow>30</fps_visible_shadow>
-			<fps_invisible>0</fps_invisible>
-			<object_surface name="grid_for_world_creation" begin="0" end="600"/>
-			<vertex type="float" num_vertex="121" offset="0" size="3">-500.000031 199.999939 8.74227499e-06 -500.000031 299.999969 1.31134148e-05 -500.000031 399.999969 1.74845536e-05 -500.000031 499.999969 2.18556925e-05 -500 -100.000069 -4.37114204e-06 -500 -4.37113886e-05 -1.91068559e-12 -500 99.9999466 4.37113658e-06 -499.999969 -500.000031 -2.18556961e-05 -499.999969 -400.000061 -1.74845591e-05 -499.999969 -300.000031 -1.31134193e-05 -499.999969 -200.000031 -8.74227953e-06 -400.000061 199.999954 8.7422759e-06 -400.000061 299.999969 1.31134157e-05 -400.000061 399.999969 1.74845536e-05 -400.000061 499.999969 2.18556943e-05 -400.000031 -100.000061 -4.37114159e-06 -400.000031 -3.49691145e-05 -1.52854866e-12 -400.000031 99.9999542 4.37113704e-06 -400 -500.000031 -2.18556961e-05 -400 -400.000061 -1.74845591e-05 -400 -300.000031 -1.31134184e-05 -400 -200.000015 -8.74227862e-06 -300.000031 199.999954 8.7422759e-06 -300.000031 299.999969 1.31134157e-05 -300.000031 399.999969 1.74845554e-05 -300.000031 499.999969 2.18556943e-05 -300 -100.000046 -4.37114113e-06 -300 -2.62268331e-05 -1.14641142e-12 -300 99.9999695 4.37113749e-06 -299.999969 -500.000031 -2.18556961e-05 -299.999969 -400.000061 -1.74845591e-05 -299.999969 -300.000031 -1.31134184e-05 -299.999969 -200.000015 -8.74227862e-06 -200.000031 499.999969 2.18556943e-05 -200.000015 299.999969 1.31134166e-05 -200.000015 399.999969 1.74845554e-05 -200 99.9999771 4.37113795e-06 -200 199.999969 8.7422768e-06 -199.999985 -1.74845554e-05 -7.64274169e-13 -199.999969 -200 -8.74227771e-06 -199.999969 -100.000038 -4.37114068e-06 -199.999954 -400.000061 -1.74845572e-05 -199.999954 -300.000031 -1.31134175e-05 -199.999939 -500.000031 -2.18556961e-05 -100.000069 500 2.18556943e-05 -100.000061 400 1.74845554e-05 -100.000046 300 1.31134166e-05 -100.000038 199.999969 8.7422768e-06 -100.000031 99.9999847 4.3711384e-06 -100.000023 -8.74228044e-06 -3.8213722e-13 -100.000015 -100.000031 -4.37114022e-06 -100.000008 -200 -8.74227771e-06 -100 -300 -1.31134175e-05 -99.9999847 -400.000031 -1.74845572e-05 -99.9999771 -500 -2.18556961e-05 -4.37113886e-05 500 2.18556943e-05 -3.49691109e-05 400 1.74845554e-05 -2.62268331e-05 300 1.31134166e-05 -1.74845554e-05 199.999985 8.74227771e-06 -8.74227771e-06 99.9999924 4.37113886e-06 0 0 0 8.74228044e-06 -100.000023 -4.37114022e-06 1.74845554e-05 -199.999985 -8.74227771e-06 2.62268331e-05 -300 -1.31134166e-05 3.49691145e-05 -400.000031 -1.74845572e-05 4.37113886e-05 -500 -2.18556943e-05 99.9999466 500 2.18556961e-05 99.9999542 400 1.74845572e-05 99.9999695 300 1.31134175e-05 99.9999771 200 8.74227771e-06 99.9999847 100 4.37113886e-06 99.9999924 8.74227771e-06 3.82137085e-13 100 -100.000015 -4.37113977e-06 100.000008 -199.999969 -8.7422768e-06 100.000015 -300 -1.31134166e-05 100.000031 -400.000031 -1.74845572e-05 100.000038 -500 -2.18556943e-05 199.999939 500.000031 2.18556961e-05 199.999954 300.000031 1.31134175e-05 199.999954 400.000031 1.74845572e-05 199.999969 100.000008 4.37113931e-06 199.999969 200 8.74227771e-06 199.999985 1.74845554e-05 7.64274169e-13 200 -199.999969 -8.7422768e-06 200 -100.000008 -4.37113931e-06 200.000015 -400 -1.74845572e-05 200.000015 -299.999969 -1.31134166e-05 200.000031 -499.999969 -2.18556943e-05 299.999969 200.000015 8.74227862e-06 299.999969 300.000031 1.31134184e-05 299.999969 400.000031 1.74845572e-05 299.999969 500.000031 2.18556961e-05 300 -100 -4.37113886e-06 300 2.62268331e-05 1.14641142e-12 300 100.000015 4.37113977e-06 300.000031 -499.999969 -2.18556943e-05 300.000031 -400 -1.74845554e-05 300.000031 -299.999969 -1.31134157e-05 300.000031 -199.999954 -8.7422759e-06 399.999969 200.000015 8.74227862e-06 399.999969 300.000031 1.31134184e-05 399.999969 400.000031 1.74845572e-05 399.999969 500.000031 2.18556961e-05 400 -99.9999847 -4.3711384e-06 400 3.49691109e-05 1.52854845e-12 400 100.000031 4.37114022e-06 400.000031 -499.999969 -2.18556943e-05 400.000031 -400 -1.74845554e-05 400.000031 -299.999969 -1.31134157e-05 400.000031 -199.999954 -8.7422759e-06 499.999969 200.000031 8.74227953e-06 499.999969 300.000031 1.31134193e-05 499.999969 400.000031 1.74845572e-05 499.999969 500.000031 2.18556961e-05 500 -99.9999771 -4.37113795e-06 500 4.37113886e-05 1.91068559e-12 500 100.000038 4.37114068e-06 500.000031 -499.999969 -2.18556925e-05 500.000031 -400 -1.74845554e-05 500.000031 -299.999969 -1.31134148e-05 500.000031 -199.999939 -8.74227499e-06</vertex>
-			<vertex type="float" num_vertex="121" offset="16" size="4">250.5 100.499992 0 0 250.5 150.5 0 0 250.5 200.5 0 0 250.5 250.5 0 0 250.5 -49.5000114 0 0 250.5 0.5 0 0 250.5 50.4999962 0 0 250.5 -249.5 0 0 250.5 -199.500015 0 0 250.5 -149.5 0 0 250.5 -99.4999924 0 0 200.500015 100.499992 0 0 200.500015 150.5 0 0 200.500015 200.5 0 0 200.500015 250.5 0 0 200.500015 -49.5000114 0 0 200.500015 0.5 0 0 200.500015 50.4999962 0 0 200.500015 -249.5 0 0 200.500015 -199.500015 0 0 200.500015 -149.5 0 0 200.500015 -99.4999924 0 0 150.5 100.499992 0 0 150.5 150.5 0 0 150.5 200.5 0 0 150.5 250.5 0 0 150.5 -49.5000114 0 0 150.5 0.5 0 0 150.5 50.4999962 0 0 150.5 -249.5 0 0 150.5 -199.500015 0 0 150.5 -149.5 0 0 150.5 -99.4999924 0 0 100.499992 250.5 0 0 100.499992 150.5 0 0 100.499992 200.5 0 0 100.499992 50.4999962 0 0 100.499992 100.499992 0 0 100.499992 0.5 0 0 100.499992 -99.4999924 0 0 100.499992 -49.5000114 0 0 100.499992 -199.500015 0 0 100.499992 -149.5 0 0 100.499992 -249.5 0 0 50.5000114 250.5 0 0 50.5000114 200.5 0 0 50.5000114 150.5 0 0 50.5000114 100.499992 0 0 50.5000114 50.4999962 0 0 50.5000114 0.5 0 0 50.5000114 -49.5000114 0 0 50.5000114 -99.4999924 0 0 50.5000114 -149.5 0 0 50.5000114 -199.500015 0 0 50.5000114 -249.5 0 0 0.5 250.5 0 0 0.5 200.5 0 0 0.5 150.5 0 0 0.5 100.499992 0 0 0.5 50.4999962 0 0 0.5 0.5 0 0 0.5 -49.5000114 0 0 0.5 -99.4999924 0 0 0.5 -149.5 0 0 0.5 -199.500015 0 0 0.5 -249.5 0 0 -49.4999962 250.5 0 0 -49.4999962 200.5 0 0 -49.4999962 150.5 0 0 -49.4999962 100.499992 0 0 -49.4999962 50.4999962 0 0 -49.4999962 0.5 0 0 -49.4999962 -49.5000114 0 0 -49.4999962 -99.4999924 0 0 -49.4999962 -149.5 0 0 -49.4999962 -199.500015 0 0 -49.4999962 -249.5 0 0 -99.4999924 250.5 0 0 -99.4999924 150.5 0 0 -99.4999924 200.5 0 0 -99.4999924 50.4999962 0 0 -99.4999924 100.499992 0 0 -99.4999924 0.5 0 0 -99.4999924 -99.4999924 0 0 -99.4999924 -49.5000114 0 0 -99.4999924 -199.500015 0 0 -99.4999924 -149.5 0 0 -99.4999924 -249.5 0 0 -149.5 100.499992 0 0 -149.5 150.5 0 0 -149.5 200.5 0 0 -149.5 250.5 0 0 -149.5 -49.5000114 0 0 -149.5 0.5 0 0 -149.5 50.4999962 0 0 -149.5 -249.5 0 0 -149.5 -199.500015 0 0 -149.5 -149.5 0 0 -149.5 -99.4999924 0 0 -199.5 100.499992 0 0 -199.5 150.5 0 0 -199.5 200.5 0 0 -199.5 250.5 0 0 -199.5 -49.5000114 0 0 -199.5 0.5 0 0 -199.5 50.4999962 0 0 -199.5 -249.5 0 0 -199.5 -199.500015 0 0 -199.5 -149.5 0 0 -199.5 -99.4999924 0 0 -249.5 100.499992 0 0 -249.5 150.5 0 0 -249.5 200.5 0 0 -249.5 250.5 0 0 -249.5 -49.5000114 0 0 -249.5 0.5 0 0 -249.5 50.4999962 0 0 -249.5 -249.5 0 0 -249.5 -199.500015 0 0 -249.5 -149.5 0 0 -249.5 -99.4999924 0 0</vertex>
-			<vertex type="float" num_vertex="121" offset="32" size="4">0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 -0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837 0 0 0.999999523 -0.000976591837</vertex>
-			<vertex type="float" num_vertex="121" offset="48" size="4">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vertex>
-			<indices num_indices="600">8 7 19 19 7 18 9 8 20 20 8 19 19 31 20 31 19 30 19 18 30 30 18 29 10 9 21 21 9 20 21 20 32 32 20 31 96 87 95 97 96 108 108 96 107 96 95 107 107 95 106 120 108 119 108 107 119 119 107 118 107 106 118 118 106 117 77 79 91 91 79 90 79 78 90 91 90 102 102 90 101 90 89 101 90 78 89 78 81 89 102 101 113 113 101 112 101 100 112 101 89 100 1 0 12 12 0 11 6 11 0 2 1 13 13 1 12 13 12 24 24 12 23 12 11 23 23 11 22 11 17 22 11 6 17 3 2 14 14 2 13 13 25 14 25 13 24 25 24 33 33 24 35 24 23 35 33 35 44 44 35 45 35 34 45 35 23 34 23 22 34 45 55 44 55 45 56 46 56 45 45 34 46 5 4 16 16 4 15 4 10 15 5 17 6 17 5 16 17 16 28 28 16 27 16 15 27 27 15 26 15 21 26 15 10 21 30 29 41 41 29 43 31 30 42 42 30 41 41 52 42 52 41 53 43 53 41 53 43 54 51 42 52 51 52 62 62 52 63 52 53 63 75 65 76 75 86 74 86 75 85 75 76 85 85 76 87 83 86 98 98 86 97 83 74 86 86 85 97 97 85 96 85 87 96 89 81 88 89 88 100 100 88 99 112 100 111 100 99 111 111 99 110 105 110 99 110 105 116 104 116 105 116 104 115 104 103 115 104 92 103 115 103 114 103 109 114 92 98 103 103 98 109 92 83 98 114 109 120 109 108 120 98 97 109 109 97 108 63 53 64 53 54 64 62 63 73 73 63 74 64 74 63 74 64 75 64 65 75 64 54 65 72 62 73 72 73 84 84 73 83 73 74 83 56 46 57 46 47 57 56 66 55 66 56 67 57 67 56 67 57 68 57 58 68 57 47 58 48 58 47 67 77 66 77 67 79 68 79 67 22 17 28 34 22 37 22 28 37 37 28 36 28 27 36 34 37 46 46 37 47 36 47 37 47 36 48 38 48 36 36 27 38 26 21 32 27 26 38 38 26 40 26 32 40 40 32 39 32 31 39 48 38 49 38 40 49 49 40 50 40 39 50 50 39 51 39 42 51 39 31 42 82 72 84 80 82 94 94 82 93 82 84 93 93 84 92 83 92 84 81 80 88 88 80 94 94 99 88 99 94 105 93 105 94 105 93 104 93 92 104 58 48 59 49 59 48 68 58 69 58 59 69 69 59 70 59 60 70 59 49 60 50 60 49 79 68 78 68 69 78 78 69 81 69 70 81 60 50 61 50 51 61 70 60 71 60 61 71 71 61 72 61 62 72 61 51 62 81 70 80 70 71 80 80 71 82 71 72 82</indices>
-			<surface name="grid_for_world_creation" collision="1" physics_friction="1" physics_restitution="1" material="9ce875824cc0b6f9c970740499c26f93691e2fd6"/>
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
-		</node>
 		<node type="LightWorld" id="824505625" name="sun">
 			<scattering>1</scattering>
 			<disable_angle>100</disable_angle>
@@ -688,92 +675,162 @@
 			</lens_flare_billboards>
 			<transform>-0.43301237 0.43559623 -0.78914917 0.0 -0.75000048 -0.6597392 0.047366858 0.0 -0.49999967 0.61237252 0.6123724 0.0 0 0 0 1.0</transform>
 		</node>
-		<node type="ObjectDummy" id="1094631004" trigger_interaction_enabled="1" name="first_person_controller">
-			<body type="BodyDummy" id="2124610468" frozen="0">
-				<shape type="ShapeCapsule" id="1577263414" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
+		<node type="ObjectMeshStatic" id="536808422" name="template_buildings">
+			<mesh_name>guid://9802276da9e561e8d1bf5c2721ad2b5a2d4a02f1</mesh_name>
+			<surface name="floor_gray_mat" collision="1" physics_friction="1" physics_restitution="1" material="9ce875824cc0b6f9c970740499c26f93691e2fd6"/>
+			<surface name="floor_green_mat" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<surface name="floor_orange_mat" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<surface name="floor_red_mat" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<surface name="wall_0_mat" collision="1" physics_friction="1" physics_restitution="1" material="9ce875824cc0b6f9c970740499c26f93691e2fd6"/>
+			<transform>0.027067188 -0.99963373 0 0.0 0.99963373 0.027067188 0 0.0 0 0 1 0.0 20.416767 -18.92791 -2.0369823 1.0</transform>
+		</node>
+		<node type="ObjectDummy" id="142379491" trigger_interaction_enabled="1" name="first_person_controller">
+			<body type="BodyDummy" id="1282553080" frozen="0">
+				<shape type="ShapeCapsule" id="948384496" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
 					<radius>0.300000012</radius>
 					<height>1.14999998</height>
 				</shape>
 			</body>
 			<properties>
-				<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="6812b244610d18d3ce9848167109607d228fa7b8">
+				<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="0bd4d49965e3b524d3af7e333b9badf647acccdd">
 					<parameter name="useObjectBody">1</parameter>
-					<parameter name="cameraPositionOffset">0 -3 1.64999998</parameter>
-					<parameter name="crouchSpeed">1.79999995</parameter>
-					<parameter name="walkSpeed">1.79999995</parameter>
-					<parameter name="runSpeed">4.5</parameter>
-					<parameter name="crouchTransitionTime">0.300000012</parameter>
+					<parameter name="cameraMode">0</parameter>
+					<parameter name="camera">1413155212</parameter>
+					<parameter name="cameraPositionOffset">0 -2.5 1.64999998</parameter>
+					<parameter name="debugProfiler">
+						<parameter name="enabled">0</parameter>
+						<parameter name="isGround">1</parameter>
+					</parameter>
 				</property>
 			</properties>
-			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0.50729156 1.0</transform>
-			<node type="ObjectMeshSkinned" id="417601821" name="AnimMan">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0 0 0.027622461 1.0</transform>
+			<node type="ObjectMeshSkinned" id="1169026309" name="AnimManFinal">
 				<mesh_name>guid://82edcb567cec8abd602e4cf815ababf787ca18ea</mesh_name>
 				<fps_visible_camera>-1</fps_visible_camera>
 				<fps_visible_shadow>30</fps_visible_shadow>
 				<fps_invisible>0</fps_invisible>
-				<anim_name>guid://163a2105c0079ea083a5c17fdc5960d27e0e8a09</anim_name>
-				<loop>1</loop>
-				<time>15</time>
-				<speed>30</speed>
-				<playing>1</playing>
-				<surface name="M_AnimMan_Default" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 1" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 2" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 3" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 4" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 5" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 6" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 7" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 8" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 9" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="M_AnimMan_Eyes" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 11" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 12" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 13" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
-				<surface name="Fbx Default Material 14" intersection_mask="0x2" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<anim_name>guid://926263308ea31ccf4868e3e2f5a091d9ede3d164</anim_name>
+				<time>18.9069576</time>
+				<surface name="M_AnimMan_Default" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 1" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 2" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 3" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 4" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 5" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 6" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 7" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 8" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 9" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="M_AnimMan_Eyes" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 11" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 12" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 13" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 14" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
 				<properties>
-					<property parent="7d7c428d9e078288001ac44712ee34fa480d4011" guid="91c9bf1aaf5c03b129dca95cd21a350b86f906ee">
-						<parameter name="idle">guid://610ac87208fa8d294e677474cf6a15431cd5b9c6</parameter>
-						<parameter name="crouchIdle">guid://568d252b7f9bf88e22412695b3aa46f021c82d8f</parameter>
-						<parameter name="walkRight">guid://2cda17a6b8244acd5a196dc8a9ff3687e14d823a</parameter>
-						<parameter name="walkFront">guid://ff041edfd7b85eb2e5e8ae69a6fea4b442910883</parameter>
-						<parameter name="walkLeft">guid://91e9d7eae7302641e577caac6910c61b99dac4be</parameter>
-						<parameter name="walkBack">guid://0487013a60711f514390d07cb9f6f1ababf65b0e</parameter>
-						<parameter name="runRight">guid://fdfc32e696fb2d0d61686b083d2992c73d75b17a</parameter>
-						<parameter name="runFront">guid://1437b76d5ffdb1e890db6c279479fb5aec9092f1</parameter>
-						<parameter name="runLeft">guid://57ea138edffa859578ee19f0c74be48fea5188a2</parameter>
-						<parameter name="runBack">guid://d70150af8ebcc6420f7550b9a59ec2c4ec3cef53</parameter>
-						<parameter name="crouchRight">guid://d9f30bfe505bc345f2a25be03828ddbf06835012</parameter>
-						<parameter name="crouchFront">guid://33fa516b9008b7cef93a5cd5362f883039cbfdcf</parameter>
-						<parameter name="crouchLeft">guid://d5a737882254f547c868b1fa8213991199137f3c</parameter>
-						<parameter name="crouchBack">guid://245c571d61a9edd820ec17574137cccac796d5a1</parameter>
-						<parameter name="jumpstart">guid://6d1eed7249be6e299cffe1742d959e439ea1aec6</parameter>
-						<parameter name="jumpFall">guid://a35b6f99dc7b9424233fd133e201e4f6d3c797dd</parameter>
-						<parameter name="jumpLand">guid://140dd4fa9068601189ab9a3ca975b06bf6268ace</parameter>
+					<property parent="bc33a5dd91b96d98385c1417bf5c228a0959b061" guid="757612440758f8d35bb2a8167da0407dc37907b8">
+						<parameter name="animManBase">1574682740</parameter>
+						<parameter name="animManAimoffset">1521157339</parameter>
+						<parameter name="baseAnimations">
+							<value index="0">guid://610ac87208fa8d294e677474cf6a15431cd5b9c6</value>
+							<value index="1">guid://ff041edfd7b85eb2e5e8ae69a6fea4b442910883</value>
+							<value index="2">guid://2cda17a6b8244acd5a196dc8a9ff3687e14d823a</value>
+							<value index="3">guid://91e9d7eae7302641e577caac6910c61b99dac4be</value>
+							<value index="4">guid://0487013a60711f514390d07cb9f6f1ababf65b0e</value>
+						</parameter>
+						<parameter name="additionalAnimations">
+							<value index="0">guid://926263308ea31ccf4868e3e2f5a091d9ede3d164</value>
+						</parameter>
+						<parameter name="lookAtNode">1806197273</parameter>
+						<parameter name="aimSpeedY">3</parameter>
+						<parameter name="camera">1413155212</parameter>
 					</property>
 				</properties>
-				<transform>1.0000001 -1.4210856e-14 0 0.0 1.4210856e-14 1.0000001 0 0.0 0 0 1.0000001 0.0 0 0 0 1.0</transform>
+				<transform>1.0000001 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="PlayerDummy" id="1413155212" enabled="0" name="PlayerDummy">
+				<znear>0.0500000007</znear>
+				<zfar>100000</zfar>
+				<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+				<is_oblique_frustum>0</is_oblique_frustum>
+				<is_main>1</is_main>
+				<is_listener>1</is_listener>
+				<controlled>1</controlled>
+				<transform>1.0000001 -2.638055e-14 1.2441543e-14 0.0 8.4703315e-22 0.42655957 0.90445977 0.0 -2.9167193e-14 -0.9044596 0.42655948 0.0 0 -2.0936742 1.2394156 1.0</transform>
+			</node>
+			<node type="NodeDummy" id="1806197273" name="LookAt">
+				<transform>1.0000001 0 0 0.0 0 1.0000001 0 0.0 0 0 1.0000001 0.0 0 0 1.6 1.0</transform>
+				<node type="NodeDummy" id="1597678604" name="LookAtTarget">
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 13.416477 0 1.0</transform>
+					<node type="ObjectMeshStatic" id="1957674847" name="Cuboid">
+						<mesh_name>guid://6f4ad848d4709f076d32d0ba6957a8d1ff8ecbfc</mesh_name>
+						<surface name="box" physics_friction="1" physics_restitution="1" material="21104c81e1573bec49c9065bb30f87fecc360f45"/>
+						<transform>0.23632473 0 0 0.0 0 0.23632473 0 0.0 0 0 0.2363247 0.0 0 -11.755387 0 1.0</transform>
+					</node>
+				</node>
+			</node>
+			<node type="PlayerDummy" id="1269892686" name="debug">
+				<znear>0.0500000007</znear>
+				<zfar>100000</zfar>
+				<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+				<is_oblique_frustum>0</is_oblique_frustum>
+				<is_main>1</is_main>
+				<is_listener>1</is_listener>
+				<controlled>1</controlled>
+				<transform>-1.0000001 -5.4001253e-13 5.6426001e-07 0.0 5.6425995e-07 -9.5367432e-07 1 0.0 0 0.99999994 8.9406961e-07 0.0 1.192093e-07 3.2151461 1.3861793 1.0</transform>
+			</node>
+			<node type="ObjectMeshSkinned" id="1574682740" enabled="0" name="AnimManBase">
+				<mesh_name>guid://82edcb567cec8abd602e4cf815ababf787ca18ea</mesh_name>
+				<fps_visible_camera>-1</fps_visible_camera>
+				<fps_visible_shadow>30</fps_visible_shadow>
+				<fps_invisible>0</fps_invisible>
+				<anim_name>guid://ff041edfd7b85eb2e5e8ae69a6fea4b442910883</anim_name>
+				<time>6.86308289</time>
+				<surface name="M_AnimMan_Default" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 1" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 2" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 3" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 4" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 5" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 6" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 7" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 8" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 9" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="M_AnimMan_Eyes" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 11" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 12" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 13" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 14" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<transform>1.0000001 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+			<node type="ObjectMeshSkinned" id="1521157339" enabled="0" name="AnimManAimoffset">
+				<mesh_name>guid://82edcb567cec8abd602e4cf815ababf787ca18ea</mesh_name>
+				<fps_visible_camera>-1</fps_visible_camera>
+				<fps_visible_shadow>30</fps_visible_shadow>
+				<fps_invisible>0</fps_invisible>
+				<anim_name>guid://926263308ea31ccf4868e3e2f5a091d9ede3d164</anim_name>
+				<time>14.2734671</time>
+				<surface name="M_AnimMan_Default" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 1" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 2" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 3" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 4" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 5" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 6" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 7" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 8" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 9" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="M_AnimMan_Eyes" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 11" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 12" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 13" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<surface name="Fbx Default Material 14" intersection="0" physics_friction="1" physics_restitution="1" material="d3c4338d32b4bf888834dd47d33779fafa43c111"/>
+				<transform>1.0000001 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.75 -0.49583 0 1.0</transform>
 			</node>
 		</node>
-		<node type="ObjectMeshStatic" id="1712264681" name="Cuboid">
-			<mesh_name>guid://cf575c589741b3d7a86bbf4a66592621ad60090c</mesh_name>
-			<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="fbc9263de6d73278a1305377d3c39a6a013e06c1"/>
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 1.5495839 6.6327372 0.75545526 1.0</transform>
-		</node>
-		<node type="NodeDummy" id="92818834" name="ramp_0">
-			<transform>1 2.6469772e-22 -3.8213709e-15 0.0 6.9377098e-23 1 8.7422769e-08 0.0 3.8213709e-15 -8.7422769e-08 1 0.0 -6.2573938 14.313192 4.7683716e-07 1.0</transform>
-		</node>
-		<node type="NodeDummy" id="408797516" name="template_buildings">
-			<transform>-0.73659796 0.67633134 0 0.0 -0.67633122 -0.73659784 0 0.0 0 0 1 0.0 19.768436 32.210083 1.4305115e-06 1.0</transform>
-			<node type="ObjectMeshStatic" id="882070944" name="template_buildings">
-				<mesh_name>guid://9802276da9e561e8d1bf5c2721ad2b5a2d4a02f1</mesh_name>
-				<surface name="floor_gray_mat" collision="1" physics_friction="1" physics_restitution="1" material="03975a558b6967b07049574fafa8dc62f5633059"/>
-				<surface name="floor_green_mat" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
-				<surface name="floor_orange_mat" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
-				<surface name="floor_red_mat" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
-				<surface name="wall_0_mat" collision="1" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
-				<transform>1 -4.7683716e-07 0 0.0 5.0663948e-07 1.0000001 0 0.0 0 0 1 0.0 -6.8362732 13.901705 0 1.0</transform>
-			</node>
+		<node type="ObjectMeshStatic" id="1816183092" name="Cuboid_1">
+			<mesh_name>guid://4349c19ef2c0bc65c125c2801558d3df67238fb2</mesh_name>
+			<surface name="box" collision="1" physics_friction="1" physics_restitution="1" material="9ce875824cc0b6f9c970740499c26f93691e2fd6"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 -1.659379 1.0</transform>
 		</node>
 	</editor>
 	<console>

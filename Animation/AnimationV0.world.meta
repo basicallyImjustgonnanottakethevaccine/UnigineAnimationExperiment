@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <asset version="2.15.0.1">
-	<guid>c447f33fa0286792950261c94d250094f3fef2e3</guid>
+	<guid>60586bbbe11bedde064e7ba5e6cbf8c084a7151f</guid>
 	<type>world</type>
-	<hash>5146cb64</hash>
+	<hash>eb4aa93f</hash>
 	<runtimes>
-		<runtime id="c447f33fa0286792950261c94d250094f3fef2e3" name="AnimationV0.world" link="0"/>
+		<runtime id="60586bbbe11bedde064e7ba5e6cbf8c084a7151f" name="AnimationV0.world" link="0"/>
 	</runtimes>
 	<parameters>
-		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="render_settings_path">guid://3eaf348f5c3c98a2f8253f99e39b2424233a2133</parameter>
 		<parameter type="string" name="sound_settings_path"/>
 		<parameter type="string" name="physics_settings_path"/>
 		<parameter type="string" name="script_name"/>
@@ -28,7 +28,7 @@
 			<current_preset>0</current_preset>
 		</speed_presets>
 		<scene_camera>
-			<transform>0.013939738273620605 0.99990367889404297 4.3213476601522416e-06 0 -0.094100065529346466 0.0013068915577605367 0.99556273221969604 0 0.99546593427658081 -0.013879061676561832 0.094108380377292633 0 4.0709004402160645 -0.1648327112197876 1.5869317054748535 1</transform>
+			<transform>0.63736718893051147 0.77056020498275757 -1.0445713996887207e-05 0 -0.23569416999816895 0.19496683776378632 0.95206940174102783 0 0.73362874984741211 -0.60681533813476563 0.30588197708129883 0 3.3192141056060791 -0.13884726166725159 3.0417525768280029 1</transform>
 			<fov_mode>0</fov_mode>
 			<fov>60</fov>
 			<focal_length>30</focal_length>

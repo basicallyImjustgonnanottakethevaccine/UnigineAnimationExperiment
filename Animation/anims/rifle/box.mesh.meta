@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <asset version="2.15.0.1">
-	<guid>4349c19ef2c0bc65c125c2801558d3df67238fb2</guid>
+	<guid>6f4ad848d4709f076d32d0ba6957a8d1ff8ecbfc</guid>
 	<type>mesh</type>
-	<hash>5d487a1f</hash>
+	<hash>55f436fa</hash>
 	<runtimes>
-		<runtime id="4349c19ef2c0bc65c125c2801558d3df67238fb2" name="box.mesh" link="0" type="1"/>
+		<runtime id="6f4ad848d4709f076d32d0ba6957a8d1ff8ecbfc" name="box.mesh" link="0" type="1"/>
 	</runtimes>
 	<parameters>
 		<parameter type="bool" name="unchanged">1</parameter>
